@@ -1,4 +1,4 @@
-codeunit 85100 "HelloWorld Test"
+codeunit 85100 SBMVendorListTest
 {
     Subtype = Test;
 

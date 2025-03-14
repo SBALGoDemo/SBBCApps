@@ -1,4 +1,4 @@
-codeunit 85000 "HelloWorld Test"
+codeunit 85000 "SBCCustomerListTest"
 {
     Subtype = Test;
 
