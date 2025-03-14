@@ -10,6 +10,9 @@
       "path": "SBModuleApp"
     },
     {
+      "path": "SBModuleApp.Test"
+    },
+    {
       "path": ".AL-Go"
     }
   ],
