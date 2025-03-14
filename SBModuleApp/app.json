@@ -2,7 +2,7 @@
   "id": "66762175-8bf6-47c8-be01-d5df6fd16122",
   "name": "SBModuleApp",
   "publisher": "SB",
-  "version": "1.0.0.0",
+  "version": "25.1.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -13,7 +13,7 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "25.0.0.0",
   "idRanges": [
     {
       "from": 55100,
