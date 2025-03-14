@@ -2,7 +2,7 @@
   "id": "e6882b5a-79c7-4201-9732-721cef0b2784",
   "name": "SBModuleApp.Test",
   "publisher": "SB",
-  "version": "25.1.0.0",
+  "version": "25.2.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -27,7 +27,7 @@
       "publisher": "SB",
       "name": "SBModuleApp",
       "id": "66762175-8bf6-47c8-be01-d5df6fd16122",
-      "version": "25.1.0.0"
+      "version": "25.2.0.0"
     }
   ],
   "screenshots": [],
