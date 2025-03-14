@@ -20,6 +20,29 @@ codeunit 85000 "SBCCustomerListTest"
         MessageDisplayed := MessageDisplayed or (Message = 'App published: Hello world');
     end;
 
+    [Test]
+    procedure TestSBNameOnInsert()
+    var
+        Customer: Record Customer;
+    begin
+        Customer.Validate(Name, 'BradTest');
+        Customer.Insert(true);
+        if Customer.SBName <> 'SB' + Customer.Name then
+            Error(StrSubstNo('SB Name field is %1 but should be %2', Customer.SBName, 'SB' + Customer.Name));
+    end;
+
+    [Test]
+    procedure TestSBNameOnModify()
+    var
+        Customer: Record Customer;
+    begin
+        Customer.Insert(true);
+        Customer.Validate(Name, 'BradTest');
+        Customer.Modify(true);
+        if Customer.SBName <> 'SB' + Customer.Name then
+            Error(StrSubstNo('SB Name field is %1 but should be %2', Customer.SBName, 'SB' + Customer.Name));
+    end;
+
     var
         MessageDisplayed: Boolean;
 }
