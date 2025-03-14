@@ -4,6 +4,9 @@
       "path": "SBCommonApp"
     },
     {
+      "path": "SBCommonApp.Test"
+    },
+    {
       "path": ".AL-Go"
     }
   ],
