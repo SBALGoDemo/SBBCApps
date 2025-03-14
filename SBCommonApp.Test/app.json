@@ -2,7 +2,7 @@
   "id": "7f20c76a-67db-4e3a-8bd1-322cd34f9d8a",
   "name": "SBCommonApp.Test",
   "publisher": "SB",
-  "version": "25.1.0.0",
+  "version": "25.2.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -27,8 +27,8 @@
       "publisher": "SB",
       "name": "SBCommonApp",
       "id": "138ef21e-6d80-41a9-bcc1-851845f42a03",
-      "version": "25.1.0.0"
-    }    
+      "version": "25.2.0.0"
+    }
   ],
   "screenshots": [],
   "platform": "1.0.0.0",
