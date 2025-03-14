@@ -1,4 +1,4 @@
-codeunit 85000 "HelloWorld Test"
+codeunit 85100 SBMVendorListTest
 {
     Subtype = Test;
 
@@ -6,10 +6,10 @@ codeunit 85000 "HelloWorld Test"
     [HandlerFunctions('HelloWorldMessageHandler')]
     procedure TestHelloWorldMessage()
     var
-        CustList: TestPage "Customer List";
+        VendorList: TestPage "Vendor List";
     begin
-        CustList.OpenView();
-        CustList.Close();
+        VendorList.OpenView();
+        VendorList.Close();
         if (not MessageDisplayed) then
             ERROR('Message was not displayed!');
     end;
@@ -17,7 +17,7 @@ codeunit 85000 "HelloWorld Test"
     [MessageHandler]
     procedure HelloWorldMessageHandler(Message: Text[1024])
     begin
-        MessageDisplayed := MessageDisplayed or (Message = 'App published: Hello world');
+        MessageDisplayed := MessageDisplayed or (Message = 'Module App published: Hello world');
     end;
 
     var
