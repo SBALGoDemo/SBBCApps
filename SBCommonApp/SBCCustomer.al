@@ -12,12 +12,12 @@ tableextension 55000 SBCCustomer extends Customer
     trigger OnInsert()
     begin
         if Rec.Name <> '' then
-            Rec.SBName := ('SB' + Rec.Name).Substring(1, MaxStrLen(Rec.SBName));
+            Rec.SBName := CopyStr('SB' + Rec.Name, 1, MaxStrLen(Rec.SBName));
     end;
 
     trigger OnModify()
     begin
         if Rec.Name <> '' then
-            Rec.SBName := ('SB' + Rec.Name).Substring(1, MaxStrLen(Rec.SBName));
+            Rec.SBName := CopyStr('SB' + Rec.Name, 1, MaxStrLen(Rec.SBName));
     end;
 }
