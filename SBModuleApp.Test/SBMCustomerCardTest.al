@@ -11,8 +11,8 @@ codeunit 85101 SBMCustomerCardTest
     begin
         Customer.Validate(Name, 'BradTest');
         Customer.Insert(true);
-        CustomerCard.GoToRecord(Customer);
         CustomerCard.OpenView();
+        CustomerCard.GoToKey(Customer."No.");
         CustomerCard.Close();
         if (not MessageDisplayed) then
             ERROR('Message was not displayed!');

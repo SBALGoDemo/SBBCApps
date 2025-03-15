@@ -4,10 +4,9 @@
 
 pageextension 55101 SBMCustomerCard extends "Customer Card"
 {
-    trigger OnOpenPage();
+    trigger OnAfterGetCurrRecord()
     begin
         if Rec.SBName <> '' then
             Message('Hello ' + Rec.SBName);
     end;
 }
-
