@@ -1,3 +1,5 @@
+[![ CI/CD](https://github.com/SBALGoDemo/SBBCApps/actions/workflows/CICD.yaml/badge.svg)](https://github.com/SBALGoDemo/SBBCApps/actions/workflows/CICD.yaml)
+
 # AL-Go Per Tenant Extension Template
 
 This template repository can be used for managing AppSource Apps for Business Central.
